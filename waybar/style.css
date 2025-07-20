@@ -1,0 +1,100 @@
+@import "mocha.css";
+
+* {
+	font-size: 15px;
+	font-family: GeistMono Nerd Font Propo;
+	font-weight: bold;
+	min-height: 0;
+}
+
+#waybar {
+	background: @mantle;
+  	color: @text;
+}
+
+#workspaces {
+	background-color: @mantle;
+	border-radius: 0rem 0rem 8px 0rem;
+	padding-right: 5px;
+}
+
+#window {
+	background-color: @surface0;
+	color: @flamingo;
+	padding: 0px 10px;
+	margin: 5px 0px;
+	border-radius: 4px;	
+}
+
+#workspaces button.active {
+	color: @mantle;
+  	background-color: @lavender;
+  	padding: 0px 5px;
+  	margin: 5px 0px;
+}
+
+#workspaces button {
+	color: @lavendar;
+	background-color: @mantle;
+}
+
+.modules-right {
+	background-color: @mantle;
+	padding: 0rem 10px;
+	border-radius: 0rem 0rem 0rem 8px;
+}
+
+#workspaces button:hover {
+	color: @sapphire;
+}
+
+#clock {
+	border-radius: 0rem 0rem 8px 8px;
+	background-color: @mantle;
+	padding: 0rem 2rem;
+	color: @blue;
+}
+
+#cpu, #memory, #network, #tray, #battery, #pulseaudio, #backlight {
+	background-color: @surface0;
+	padding: 0px 10px;
+	margin: 5px 0px;
+	margin-right: 5px;
+	border-radius: 4px;
+}
+
+#pulseaudio {
+	margin-left: 5px;
+	color: @teal
+}
+
+#backlight {
+	color: @red
+}
+
+#cpu {
+	color: @yellow;
+}
+
+#memory {
+	color: @pink;
+}
+
+#network {
+	color: @mauve;
+}
+
+#battery {
+  	color: @green;
+  	margin-right: 10px;
+}
+
+#custom-notification {
+	color: @lavender;
+	margin-right: 10px;
+}
+
+#battery.warning:not(.charging) {
+	color: @red;
+}
+

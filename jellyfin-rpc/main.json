@@ -1,0 +1,10 @@
+{
+	"jellyfin": {
+		"url": "http://jf.20137263.xyz",
+		"api_key": "0c047c21e459467aa6592fb9d54ff277",
+		"username": "cosmic"
+	},
+	"images": {
+		"enable_images": true
+	}
+}
